@@ -1,0 +1,4 @@
+@startuml
+actor Researcher
+rectangle System { Researcher --> (Validate data); Researcher --> (Forecast colony); Researcher --> (Inspect XAI); Researcher --> (Review lineage) }
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+[Data] --> [Validation]
+[Validation] --> [Models]
+[Models] --> [Uncertainty]
+[Uncertainty] --> [FastAPI]
+[FastAPI] --> [React Dashboard]
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+start
+:Load data;
+:Validate;
+if (valid?) then (yes)
+:Engineer features;
+:Build graph;
+:Forecast;
+:Calibrate interval;
+:Explain + risk;
+:Return result;
+else (no)
+:Quarantine and log;
+endif
+stop
+@enduml

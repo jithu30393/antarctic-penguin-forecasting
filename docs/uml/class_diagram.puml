@@ -1,0 +1,7 @@
+@startuml
+class STGNN
+class GraphConv
+class HierarchicalPopulationModel
+class Lineage
+STGNN *-- GraphConv
+@enduml

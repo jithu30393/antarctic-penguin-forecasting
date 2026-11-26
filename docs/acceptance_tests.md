@@ -1,0 +1,2 @@
+# Acceptance tests
+AC-1 representative operation: run demo, validate held-out chronology and inspect metrics. AC-2 boundary/failure: malformed dates, negative counts, range violations, duplicate observations and missing schema. AC-3 independent evidence: acceptance tests are separated from model implementation tests. AC-4 frozen envelope: `configs/demo.yaml`, fixture version and CPU-friendly run define the review envelope.

@@ -1,0 +1,8 @@
+@startuml
+Researcher -> API: POST /api/forecast
+API -> Pipeline: load/validate/infer
+Pipeline -> Model: predict
+Model --> Pipeline: forecast
+Pipeline --> API: forecast + interval + risk
+API --> Researcher: JSON
+@enduml

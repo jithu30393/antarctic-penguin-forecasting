@@ -1,0 +1,6 @@
+seed: 42
+data_path: data/processed/penguin_observations.csv
+model_version: stgnn-v1.0.0
+sparse_threshold: 4
+interval: {alpha: 0.05, calibration_quantile: 0.95}
+model: {hidden_dim: 64, epochs: 100, learning_rate: 0.005, k_neighbors: 4}
